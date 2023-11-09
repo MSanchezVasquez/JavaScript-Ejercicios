@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metodos de String (ES6)</title>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.8/es6-sham.min.js"
+    ></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      let texto =
+        "JavaScript es un lenguaje de programación interpretado. La version actual más usada es ECMAScript 6";
+
+      console.log(texto.startsWith("JavaScript"));
+      console.log(texto.startsWith("JS"));
+      console.log(texto.endsWith("ECMAScript 6"));
+      console.log(texto.endsWith("ES6"));
+
+      console.log();
+      console.log(texto.codePointAt(0));
+      console.log(texto.codePointAt(1));
+      console.log(texto.codePointAt(2));
+
+      console.log();
+      console.log(String.fromCodePoint(102));
+      console.log(String.fromCodePoint(111));
+      console.log(String.fromCodePoint(114));
+    </script>
+  </body>
+</html>
